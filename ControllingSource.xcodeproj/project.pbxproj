@@ -126,10 +126,7 @@
 				FA285E3B17F6FC0C0070CA4A /* AppDelegate.h */,
 				FA285E3C17F6FC0C0070CA4A /* AppDelegate.m */,
 				FA285E3E17F6FC0C0070CA4A /* Main.storyboard */,
-				FA285E4417F6FC0C0070CA4A /* MasterViewController.h */,
-				FA285E4517F6FC0C0070CA4A /* MasterViewController.m */,
-				FA285E4717F6FC0C0070CA4A /* DetailViewController.h */,
-				FA285E4817F6FC0C0070CA4A /* DetailViewController.m */,
+				FAFB2B6A17F7006700A8F1F4 /* View Controllers */,
 				FA285E4A17F6FC0C0070CA4A /* Images.xcassets */,
 				FA285E4117F6FC0C0070CA4A /* ControllingSource.xcdatamodeld */,
 				FA285E3317F6FC0C0070CA4A /* Supporting Files */,
@@ -164,6 +161,17 @@
 				FA285E5B17F6FC0D0070CA4A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFB2B6A17F7006700A8F1F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA285E4417F6FC0C0070CA4A /* MasterViewController.h */,
+				FA285E4517F6FC0C0070CA4A /* MasterViewController.m */,
+				FA285E4717F6FC0C0070CA4A /* DetailViewController.h */,
+				FA285E4817F6FC0C0070CA4A /* DetailViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +484,7 @@
 				FA285E6417F6FC0D0070CA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA285E6517F6FC0D0070CA4A /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +493,7 @@
 				FA285E6717F6FC0D0070CA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
